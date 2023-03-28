@@ -19,13 +19,39 @@ const Hero = () => (
       <div className="flex flex-row justify-between items-center w-full ">
         <h1 className="flex-1 font-main font-semibold text-[52px] ss:text-[72px] text-white leading-[75px] ss:leading-[100px] ">
           The Next <br className="hidden sm:block" />{" "}
-          <span className="text-gradient">Generation</span> Payment Method.
+          <span className="text-gradient">Generation</span>
         </h1>
 
         <div className="hidden mr-0 ss:flex md:mr-4 ">
           <GetStarted />
         </div>
       </div>
+
+      <h1 className="font-main font-semibold text-[52px] ss:text-[68px] text-white leading-[75px] ss:leading-[100px] w-full">
+        Payment Method.
+      </h1>
+
+      <p className={`${styles.paragraph} mt-5 max-w-[470px]`}>
+        Our team of experts uses a methodology to identify the credit cards most
+        likely to fit your needs. We examine annual percentage rates, annual
+        fees.
+      </p>
+    </div>
+
+    <div className={`${styles.flexCenter} flex flex-1 relative my-10 md:my-0`}>
+      <img
+        src={robot}
+        alt="robot arm"
+        className=" z-[5] relative w-full h-full"
+      />
+
+      <div className="absolute z-0 w-2/5 h-[35%] top-0 pink__gradient" />
+      <div className="absolute z-1 w-4/5 h-[80%] rounded-full bottom-40 white__gradient" />
+      <div className="absolute z-0 w-2/4 h-2/4 right-20 bottom-20 blue__gradient" />
+    </div>
+
+    <div className={` ${styles.flexCenter} ss:hidden`}>
+      <GetStarted />
     </div>
   </section>
 );
