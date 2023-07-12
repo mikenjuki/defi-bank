@@ -3,6 +3,9 @@ import styles from "../styles";
 import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
+const date = new Date();
+let year = date.getFullYear();
+
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} flex-col w-full mb-8 md:flex-row`}>
@@ -48,7 +51,7 @@ const Footer = () => (
       <p
         className={`font-main font-normal text-center text-[18px] leading-[24px] text-white`}
       >
-        Copyright &copy; 2021 HooBank. All Rights Reserved.
+        Copyright &copy; {year} DefiBank. All Rights Reserved.
       </p>
       <div className="flex flex-row mt-6 md:mt-0">
         {socialMedia.map((social, index) => (

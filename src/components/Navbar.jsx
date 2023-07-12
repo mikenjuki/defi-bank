@@ -8,7 +8,11 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar flex w-full justify-between items-center py-6">
-        <img src={logo} alt="bank logo" className="w-[124px] h-[32px]" />
+        <img
+          src={logo}
+          alt="bank logo"
+          className="w-[124px] h-[32px]"
+        />
 
         {/* Desktop links */}
         <ul className=" list-none sm:flex hidden justify-end items-center flex-1">
