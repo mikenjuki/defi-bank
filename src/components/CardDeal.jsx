@@ -13,7 +13,7 @@ const CardDeal = () => (
       </h2>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Looking for a better card deal? Look no further than Hoobank! Our
+        Looking for a better card deal? Look no further than Defibank! Our
         easy-to-use system makes it simple to find the best deals for you. With
         just a few easy steps, you can find the perfect card deal that fits your
         needs.

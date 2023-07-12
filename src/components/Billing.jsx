@@ -23,7 +23,7 @@ const Billing = () => (
         billing & invoicing.
       </h2>
       <p className={`${styles.paragraph} mt-5 max-w-[470px]`}>
-        Thank you for choosing Hoobank! Our billing and invoicing system is
+        Thank you for choosing Defibank! Our billing and invoicing system is
         designed to make your life easier. With our system, you can easily
         control your billing and invoicing needs. We understand that managing
         finances can be a hassle, but with us, you can rest assured that your
